@@ -1,7 +1,7 @@
 # Wireless Temperature Gauge
 
 ## Slide 1 — Overview
-Wireless Temperature Gauge is a two-device system. A sensor device measures temperature and sends the value wirelessly. A display device visualizes the temperature using a stepper-motor-driven gauge needle and an LED indicator.
+Wireless Temperature Gauge is a two-device system. A sensor device measures temperature and transmits the value wirelessly. A display device visualizes the temperature using a stepper-motor-driven gauge needle and an LED indicator.
 
 **General sketch:**
 ![overview](https://github.com/user-attachments/assets/f27abf29-9b91-41e6-9690-4b366f94c466)
