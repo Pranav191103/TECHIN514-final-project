@@ -1,4 +1,4 @@
-# ButtonCounter – Wireless Button Press Gauge
+# Wireless Temperature Gauge
 
 ## Slide 1 — Overview
 ButtonCounter is a two-device system. A sensor device counts button presses and sends the count wirelessly. A display device shows the count using a stepper-motor gauge needle and an LED indicator.
