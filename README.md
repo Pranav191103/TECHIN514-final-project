@@ -17,6 +17,7 @@ Wireless Temperature Gauge is a two-device system. A sensor device measures temp
 
 **Operation:**
 The ESP32-C3 reads temperature data from the sensor and transmits the measured value wirelessly to the display device.
+
 **Detailed sensor sketch:**
 ![sensor](https://github.com/user-attachments/assets/3ee4a23c-d7fc-42a9-94dc-10cd20dd2963)
 
@@ -41,8 +42,8 @@ The display ESP32-C3 receives temperature data, maps the value to a gauge angle,
 
 ## Slide 4 — Communication & System Diagram
 **Communication:**
-
 Sensor ESP32-C3 → Wireless (ESP-NOW or Wi-Fi) → Display ESP32-C3
+
 ![system](https://github.com/user-attachments/assets/a108482e-50e2-4825-8163-e9fa1360b13f)
 
 **System logic:**
