@@ -11,7 +11,7 @@ ButtonCounter is a two-device system. A sensor device counts button presses and 
 ## Slide 2 — Sensor Device
 **Parts:**
 - Processor/Wireless: ESP32-C3 development board
-- Sensor: Momentary pushbutton
+- Sensor: Temperature sensor (e.g., LM35 or DS18B20)
 - Indicator: LED
 - Power: USB
 
