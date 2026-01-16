@@ -4,7 +4,7 @@
 ButtonCounter is a two-device system. A sensor device counts button presses and sends the count wirelessly. A display device shows the count using a stepper-motor gauge needle and an LED indicator.
 
 **General sketch:**
-[To be added]
+![overview](https://github.com/user-attachments/assets/f27abf29-9b91-41e6-9690-4b366f94c466)
 
 ---
 
@@ -19,7 +19,7 @@ ButtonCounter is a two-device system. A sensor device counts button presses and 
 The ESP32-C3 detects button presses, increments a counter, and transmits the count wirelessly to the display device.
 
 **Detailed sensor sketch:**
-[To be added]
+![sensor](https://github.com/user-attachments/assets/3ee4a23c-d7fc-42a9-94dc-10cd20dd2963)
 
 ---
 
@@ -36,13 +36,15 @@ The ESP32-C3 detects button presses, increments a counter, and transmits the cou
 The display ESP32-C3 receives the count, maps it to a gauge angle, and drives the stepper motor to move the needle. The LED provides visual feedback, and the reset button zeros the count.
 
 **Detailed display sketch:**
-[To be added]
+![display](https://github.com/user-attachments/assets/bea24069-6d76-4a45-afc1-a0a31cf03a0a)
 
 ---
 
 ## Slide 4 — Communication & System Diagram
 **Communication:**
+
 Sensor ESP32-C3 → Wireless (ESP-NOW or Wi-Fi) → Display ESP32-C3
+![system](https://github.com/user-attachments/assets/a108482e-50e2-4825-8163-e9fa1360b13f)
 
 **System logic:**
 Button → Count → Transmit → Receive → Map to angle → Drive stepper → Update LED
