@@ -16,8 +16,7 @@ ButtonCounter is a two-device system. A sensor device counts button presses and 
 - Power: USB
 
 **Operation:**
-The ESP32-C3 detects button presses, increments a counter, and transmits the count wirelessly to the display device.
-
+The ESP32-C3 reads temperature data from the sensor and transmits the measured value wirelessly to the display device.
 **Detailed sensor sketch:**
 ![sensor](https://github.com/user-attachments/assets/3ee4a23c-d7fc-42a9-94dc-10cd20dd2963)
 
