@@ -11,7 +11,7 @@ Wireless Temperature Gauge is a two-device system. A sensor device measures temp
 ## Slide 2 — Sensor Device
 **Parts:**
 - Processor/Wireless: ESP32-C3 development board
-- Sensor: Temperature sensor (e.g., LM35 or DS18B20)
+- Sensor: Temperature sensor (DS18B20)
 - Indicator: LED
 - Power: USB
 
