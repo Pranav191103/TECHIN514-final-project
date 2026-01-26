@@ -10,7 +10,7 @@ Wireless Temperature Gauge is a two-device system. A sensor device measures temp
 
 ## Slide 2 — Sensor Device
 **Parts:**
-- Processor/Wireless: ESP32-C3 development board
+- Processor/Wireless: ESP32-C3 (Espressif ESP32-C3-WROOM-02)
 - Sensor: Temperature sensor (DS18B20)
 - Indicator: LED
 - Power: USB
@@ -25,7 +25,7 @@ The ESP32-C3 reads temperature data from the sensor and transmits the measured v
 
 ## Slide 3 — Display Device
 **Parts:**
-- Processor/Wireless: ESP32-C3 development board
+- Processor/Wireless: ESP32-C3 (Espressif ESP32-C3-WROOM-02)
 - Stepper motor: 28BYJ-48 (5V)
 - Stepper driver: ULN2003A
 - Indicator: LED
