@@ -1,0 +1,8 @@
+Reference,Quantity,Value,Footprint,Description
+U1,1,ESP32-C3,QFN-32,ESP32-C3 Microcontroller
+U2,1,DS18B20,TO-92,Digital Temperature Sensor
+R1,1,4.7kΩ,0603,Pull-up Resistor for DS18B20
+D1,1,LED,0603,Status LED
+R2,1,220Ω,0603,LED current limiting resistor
+SW1,1,Push Button,SW_Push,Reset Button
+U3,1,Display Module,Custom,Display Device
